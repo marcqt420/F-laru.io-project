@@ -1,0 +1,55 @@
+{
+    "public": {
+      "site": {
+        "title": "laru.io",
+        "description": "At Laru.io, we're committed to expanding the utility and applications of the $beans token, enhancing our social media platform, and ensuring long-term sustainability."
+      },
+      "hero": {
+        "title": "Welcome to Laru.io!",
+        "paragraphs": [
+          "At Laru.io, we're committed to expanding the utility and applications of the $beans token, enhancing our social media platform, and ensuring long-term sustainability.",
+          "Join us on this exciting journey as we build a robust and enduring ecosystem. Together, we'll make $beans a representation of our hard work and community spirit. Thank you for being part of our adventure!"
+        ]
+      },
+      "about": {
+        "title": "About Us",
+        "paragraphs": [
+          "Our Commitment at Laru.io and with the $beans Token",
+          "At Laru.io, we are dedicated to enhancing the utility of the $beans token and ensuring its long-term viability. We will feature a section where aspiring young developers can exhibit their talents and skills.",
+          "We welcome partnerships that align with our vision and bolster the $beans ecosystem. By collaborating with like-minded partners, we strive for innovation and sustainability.",
+          "We will allocate 50% of ad revenue to the $beans token, supporting new utility projects and liquidity. Additionally, 20% will be invested in marketing initiatives for the $beans project, and 30% will be directed towards team development. We are committed to ensuring that advertisements do not disrupt the user experience, maintaining a focus on user interactions, quests, events, and games.",
+          "We are committed to thinking outside the box and pursuing innovative solutions. Thank you for your support, and we invite you to join us on this exciting journey. Together, we will make $beans a representation of our dedication and community spirit."
+        ]
+      },
+      "games": [
+        {
+          "title": "Flappy D. Spacebird",
+          "description": "Help Flappy collect suit's trophy and especially \"$beans\"!! Play to earn.",
+          "link": "flappy.d.spacebird.html"
+        },
+        {
+          "title": "Game Title 2",
+          "description": "Short description of the game.",
+          "link": "game2.html"
+        },
+        {
+          "title": "Game Title 3",
+          "description": "Short description of the game.",
+          "link": "game3.html"
+        },
+        {
+          "title": "Game Title 4",
+          "description": "Short description of the game.",
+          "link": "game4.html"
+        }
+      ]
+    },
+    "private": {
+      "adminEmail": "admin@laru.io",
+      "apiKeys": {
+        "google": "YOUR_GOOGLE_API_KEY",
+        "stripe": "YOUR_STRIPE_API_KEY"
+      }
+    }
+  }
+  

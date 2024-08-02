@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laru.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo img {
+            height: 60px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+        .hero, .about {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .hero h2, .about h2, .games h2, .contact h2, .metadata h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .hero p, .about p {
+            text-align: center;
+            margin: 10px 0;
+        
+        }
+        .games {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image: url(backroundmodern.png);
+            background-size: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+        .game-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .game-item {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .game-item h3 {
+            color: #007BFF;
+        }
+        .game-item a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .contact {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image: url(backroundmodern.png);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        form label {
+            font-weight: 700;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="laru.png" alt="Laru Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="roadmap/roadmap.html">Roadmap</a></li>
+                <li><a href="quest/quest.html">Quest</a></li>
+                <li><a href="airdrop/airdrop.html">Airdrop</a></li>
+                <li><a href="$beantoken/$beans.html">$beans</a></li>
+                <li><a href="ads/ads.html">Ads</a></li>
+            </ul>
+        </nav>
+        <div class="login-buttons">
+            <img id="discordLoginImage" class="connect-image" src="discord-logo.png" alt="Connect Discord">
+            <img id="emailLoginImage" class="connect-image" src="email-logo.png" alt="Login with Email">
+            <img id="metaMaskConnectImage" class="connect-image" src="metamask-logo.png" alt="Connect MetaMask">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Laru.io!</h2>
+            <div class="hero-content" id="hero-content">
+                <p>At Laru.io, we're committed to expanding the utility and applications of the $beans token, enhancing our social media platform, and ensuring long-term sustainability.
+                    <br>
+                    <br>
+                     We believe in innovation and community-driven success. Ads will support our growth without compromising your experience, keeping the focus on user interactions, quests, events, and games. 
+                     <br>
+                     <br>
+                     Join us on this exciting journey as we build a robust and enduring ecosystem. Together, we'll make $beans a representation of our hard work and community spirit. Thank you for being part of our adventure!</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div id="about-content">
+                <p>Our Commitment at Laru.io and with the $beans Token At Laru.io, we are dedicated to enhancing the utility of the $beans token and ensuring its long-term viability.
+                    <br>
+                    <br>
+                     We will feature a section where aspiring young developers can exhibit their talents and skills. We welcome partnerships that align with our vision and bolster the $beans ecosystem. 
+                     <br>
+                     <br>
+                     By collaborating with like-minded partners, we strive for innovation and sustainability. We will allocate 50% of ad revenue to the $beans token, supporting new utility projects and liquidity. Additionally, 20% will be invested in marketing initiatives for the $beans project, and 30% will be directed towards team development.
+                     <br>
+                     <br>
+                      Thinking outside the box and pursuing innovative solutions. Thank you for your support, and we invite you to join us on this exciting journey. Together, we will make $beans a representation of our dedication and community spirit.</p>
+                     
+            </div>
+        </section>
+
+        <section id="games" class="games">
+            <h2>Our Games</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <h3><a href="flappy.d.spacebird.html">Flappy D. Spacebird</a></h3>
+                    <p>Help Flappy collect suit's trophy and especially "$beans"!! Play to earn.</p>
+                </div>
+                <div class="game-item">
+                    <h3>Game Title 2</h3>
+                    <p>Short description of the game.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:info@laru.ph" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 laru. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.11/auth0.min.js"></script>
+    <script>
+        const auth0 = new auth0.WebAuth({
+            domain: 'YOUR_AUTH0_DOMAIN',
+            clientID: 'YOUR_AUTH0_CLIENT_ID',
+            redirectUri: window.location.href,
+            responseType: 'token id_token',
+            scope: 'openid profile email'
+        });
+
+        document.getElementById('metaMaskConnectImage').addEventListener('click', async () => {
+            if (window.ethereum) {
+                try {
+                    await window.ethereum.request({ method: 'eth_requestAccounts' });
+                    const web3 = new Web3(window.ethereum);
+                    const accounts = await web3.eth.getAccounts();
+                    alert(`Connected account: ${accounts[0]}`);
+                } catch (error) {
+                    console.error("User denied account access", error);
+                }
+            } else {
+                alert('MetaMask is not installed. Please install it to use this feature.');
+            }
+        });
+
+        document.getElementById('discordLoginImage').addEventListener('click', () => {
+            auth0.authorize({
+                connection: 'discord'
+            });
+        });
+
+        document.getElementById('emailLoginImage').addEventListener('click', () => {
+            auth0.authorize({
+                connection: 'Username-Password-Authentication'
+            });
+        });
+
+        function redirectToQuestPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('metadata-form');
+            const display = document.getElementById('metadata-display');
+
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const key = document.getElementById('key').value;
+                const value = document.getElementById('value').value;
+
+                fetch('/update-metadata', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ key, value })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    displayMetadata(data);
+                    display.textContent = JSON.stringify(data, null, 4);
+                    form.reset();
+                })
+                .catch(error => console.error('Error:', error));
+            });
+
+            function fetchMetadata() {
+                fetch('/metadata')
+                .then(response => response.json())
+                .then(data => {
+                    displayMetadata(data);
+                    display.textContent = JSON.stringify(data, null, 4);
+                })
+                .catch(error => console.error('Error:', error));
+            }
+
+            function displayMetadata(data) {
+                document.getElementById('hero-content').innerHTML = data.hero.paragraphs.map(p => `<p>${p}</p>`).join('');
+                document.getElementById('about-content').innerHTML = data.about.paragraphs.map(p => `<p>${p}</p>`).join('');
+                document.getElementById('game-list').innerHTML = data.games.map(game => `
+                    <div class="game-item" onclick="redirectToQuestPage('${game.link}')">
+                        <h3>${game.title}</h3>
+                        <p>${game.description}</p>
+                    </div>
+                `).join('');
+            }
+
+            fetchMetadata();
+        });
+    </script>
+</body>
+</html>
